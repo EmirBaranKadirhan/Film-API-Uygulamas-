@@ -1,0 +1,62 @@
+body{
+    background-color: #1c1d1c
+}
+
+#arama{
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;                    /* arama kisminin uzerine tikladigimizda etrafta cikan cizgiyi kaldirmis olduk */
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #0c0808;
+    width: 300px;
+}
+
+
+button{
+    background-color: #e2bd44;
+    width: 105px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ebbf30 ;
+    transform: scale(1.15);             /* uzerine geldigimizde butonlari buyutur */
+    font-size: large;
+}
+
+#filmlerGenelBolumu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    margin-top: 15px;
+}
+
+.filmler {
+    margin: 6px;
+    width: 400px;
+    height: 480px;
+    background-color: #e2bd44;
+}
+
+.filmResimleri {
+    width: 400px;
+    height: 340px;
+}
+
+.baslikVePuan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.baslikVePuan > h1{
+    margin: 0;
+}
