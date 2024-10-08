@@ -17,8 +17,8 @@ Bu proje, film verilerini görüntülemek ve arama yapmak için kullanılan bir 
 - **API**: [The Movie Database (TMDb)](https://www.themoviedb.org/) API'si kullanılarak film verileri alındı. Bu sayede uygulama, güncel film bilgilerini dinamik olarak elde etmektedir.
 
 
-![Uygulama Ici Resim 1](./img/UygulamaIciResim1.PNG)
+![Uygulama Ici Resim 1](./img/UygulamaIciResimFilmlerApi1.PNG)
 
-![Uygulama Ici Resim 2](./img/UygulamaIciResim2.PNG)
+![Uygulama Ici Resim 2](./img/UygulamaIciResimFilmlerApi2.PNG)
 
-![Uygulama Ici Resim 3](./img/UygulamaIciResim3.PNG)
+![Uygulama Ici Resim 3](./img/UygulamaIciResimFilmlerApi3.PNG)
