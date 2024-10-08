@@ -35,12 +35,22 @@ class filmlerAPI{
             
                 <div class="baslikVePuan">
                     <h1>${film.original_title}</h1>
-                    <h3>${filmPuan.toFixed(1)}</h3>
+                    <h3 class="filmPuani ${this.puanaGoreRenklendir(filmPuan)}">${filmPuan.toFixed(1)}</h3>
                 </div>  
                 </div>`
             })
         }
         
+
+        puanaGoreRenklendir(filmPuani){
+            if(filmPuani>=8){
+                return "green";
+            }else if(filmPuani>=6 ){
+                return "orange";
+            }
+
+            return "red";
+        }
 }
 
 

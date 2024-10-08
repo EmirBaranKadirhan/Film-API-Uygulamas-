@@ -60,3 +60,26 @@ button:hover{
 .baslikVePuan > h1{
     margin: 0;
 }
+
+
+.filmPuani{
+    font-size: 16px;
+    color: black;
+    background-color: #ece6e0;
+    padding: 3px;
+}
+
+
+.green{
+    background-color: green;
+}
+
+
+.orange{
+    background-color: #fd7e14;
+}
+
+
+.red{
+    background-color: red;
+}
